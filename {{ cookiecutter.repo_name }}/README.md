@@ -18,7 +18,6 @@ The directory structure of the project looks like this:
 │   └── figures/                     
 ├── project_name/             # Main project
 |   ├── __init__.py
-│   ├── api.py
 │   ├── data.py
 │   ├── evaluate.py
 │   ├── models.py
