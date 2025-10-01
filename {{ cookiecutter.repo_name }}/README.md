@@ -25,7 +25,6 @@ The directory structure of the project looks like this:
 │   └── visualize.py
 └── tests/                    # Tests
 │   ├── __init__.py
-│   ├── test_api.py
 │   ├── test_data.py
 │   └── test_model.py
 ├── .gitignore
