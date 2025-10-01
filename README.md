@@ -1,6 +1,4 @@
-# {{ cookiecutter.project_name }}
-
-{{ cookiecutter.description }}
+# ML Project Template
 
 ## Overview
 
