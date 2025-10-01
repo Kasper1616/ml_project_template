@@ -47,3 +47,13 @@ def test(ctx: Context) -> None:
     """Run tests."""
     ctx.run("coverage run -m pytest tests/", echo=True, pty=not WINDOWS)
     ctx.run("coverage report -m -i", echo=True, pty=not WINDOWS)
+
+@task
+def train_gpu(ctx: Context) -> None:
+    """Train model using GPU."""
+    ctx.run(f"bsub < jobs/train_gpu.sh", echo=True, pty=not WINDOWS)
+
+@task
+def test_gpu(ctx: Context) -> None:
+    """Test model using GPU."""
+    ctx.run(f"bsub < jobs/test_gpu.sh", echo=True, pty=not WINDOWS)
