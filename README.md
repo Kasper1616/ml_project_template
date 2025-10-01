@@ -9,8 +9,7 @@ This project is a machine learning template designed to streamline the developme
 - **Modular Codebase**: Organized into reusable components for data processing, model training, evaluation, and visualization.
 - **HPC Job Scripts**: Predefined scripts for running training and evaluation on GPU clusters.
 - **Testing**: Includes unit tests for data and model components.
-- **Development Tools**: Pre-configured with `invoke` tasks, `pre-commit` hooks, and linting tools like `ruff`.
-- **Documentation**: Ready to use with `mkdocs` for generating project documentation.
+- **Development Tools**: Pre-configured with `invoke` tasks and linting tools like `ruff`.
 
 ## Project Structure
 
