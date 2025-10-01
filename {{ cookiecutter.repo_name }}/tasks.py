@@ -5,8 +5,8 @@ import cookiecutter
 from invoke import Context, task
 
 WINDOWS = os.name == "nt"
-PROJECT_NAME = {{ cookiecutter.project_name }}
-PYTHON_VERSION = {{ cookiecutter.python_version }}
+PROJECT_NAME = {{ cookiecutter.project_name }} # type: ignore
+PYTHON_VERSION = {{ cookiecutter.python_version }} # type: ignore
 
 # Setup commands
 @task
